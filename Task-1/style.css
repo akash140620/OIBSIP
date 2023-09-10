@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(aaa.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+.banner .navbar .info_but{
+    color: brown;
+    text-decoration:none ;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.content h1{
+    font-weight: 1000;
+}
+.banner .navbar a:hover{
+    background: #fff;
+
+}
+.content h1:hover{
+    color:white;
+}
+.content h3{
+    color:grey;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border: 2px solid #009688;
+    background: brown;
+    color:white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+button:hover{
+    background: transparent;
+    color: black;
+}
