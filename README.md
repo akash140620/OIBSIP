@@ -1,7 +1,7 @@
 # OIBSIP
 Hello there👋!!
 
-Above are the three level 1 tasks given in my internship program.
+Above are the three level-1 tasks given in my internship program.
 
 --> First task is to create a landing page using html and css.
 
